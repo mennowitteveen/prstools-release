@@ -72,7 +72,7 @@ prstools
 model or other functionality can be used. Forinstance typing
 `prstools prscs2` will output a help for the prscs2 subcommand:
 
-
+```console
     Usage:
      prstools prscs2 [-h  --cpus <number-of-cpus>] --ref <dir/refcode> --target <bim-prefix>
                            --sst <file> --out <dir+prefix> [--n_gwas <num>  --chrom <chroms>]
@@ -99,6 +99,7 @@ model or other functionality can be used. Forinstance typing
      prst downloadutil --pattern example --destdir ./; cd example                                                # Makes 'example' dir in current path.
      prstools prscs2 --ref ldref_1kg_pop --target target --sst sumstats.tsv --n_gwas 2565 --out ./result-prscs2 # Run the model with example data.
      prst prscs2 -r ldref_1kg_pop -t target -s sumstats.tsv -n 2565 -o ./result-prscs2 --pred                  # A shorter version of previous that also does the predictions.
+```
 
 As can be seen, there are examples at the end of the help output to
 illustrate usage, which should work with a simple copy-paste.
